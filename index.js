@@ -129,7 +129,8 @@ function ganador(figura){
             let h2 = document.createElement('h2');
             h2.innerText = 'GANÓ PLAYER 2';
             h2.style.fontWeight = 'bold';
-            
+           
+            form.appendChild(img) 
             form.appendChild(h2)
             form.appendChild(boton)
             modal.show()
